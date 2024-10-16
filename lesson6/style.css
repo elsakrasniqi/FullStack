@@ -22,3 +22,16 @@ li a:hover{
     background-color: lightblue;
     color:white
 }
+
+#article{
+background-color: lightgray;
+}
+
+#h2{
+    background-color: blanchedalmond;
+}
+
+footer{
+    text-align: center;
+    background-color: lightblue;
+}
