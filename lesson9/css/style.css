@@ -35,3 +35,19 @@ h4{
 .myElement{
     font-size: 70px;
 }
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:pink;
+}
+
+a:active{
+    color:blue;
+}
