@@ -1,3 +1,9 @@
 h2{
     color:pink;
+    margin: 100px 150px 100px 80px;  /* top, right, bottom, left  */
+}
+p{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50%;
 }
