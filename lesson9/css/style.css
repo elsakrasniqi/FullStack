@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Fake Identity";
+    src: url("../fonts/fake_identity/FakeIdentity.ttf");
+}
+
+
+h1{
+    color: green;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    text-indent: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+h2{
+    text-decoration: overline;
+    font-family: "FakeIdentity";
+}
+
+h3{
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: line-through;
+}
