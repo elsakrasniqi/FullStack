@@ -1,9 +1,41 @@
+body{
+    background: url("lesson8/images/blue-background.jpg");
+    background-size: cover;
+
+}
+
 h2{
-    color:pink;
+    color: rgb(190, 95, 124);
     margin: 100px 150px 100px 80px;  /* top, right, bottom, left  */
 }
+
 p{
     margin-top: 50px;
     margin-bottom: 100px;
     margin-left: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1{
+    color: #834fa5;
+    border: 5px solid white;
+}
+
+h3{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 60px;
+
+    padding: 20px 30px 70px 60px;
+    color: black;
+}
+
+div{
+    background-color: aliceblue;
+    height: 200px;
+    max-width:50%;
+    scroll-behavior: smooth;
 }
