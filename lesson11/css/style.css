@@ -1,0 +1,21 @@
+article p{
+    background: lightblue;
+    color:white;
+    padding: 20px;
+}
+
+article > p{
+    background: rgb(223, 109, 109);
+}
+
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+article + p{
+    background: orange;
+    color: white;
+    padding: 20px;
+}
