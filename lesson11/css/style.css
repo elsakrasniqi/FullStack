@@ -59,3 +59,28 @@ span:first-of-type{
 form{
     margin-top: 50px;
 }
+
+p{
+    width: 200px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 40px;
+}
+
+p::before{
+    content: url("../images/lists.png");
+}
+
+p::selection{
+    color: pink;
+    background: yellow;
+}
+
+div{
+    opacity: 0.5;
+}
