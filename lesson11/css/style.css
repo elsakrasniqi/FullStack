@@ -19,3 +19,43 @@ article + p{
     color: white;
     padding: 20px;
 }
+
+h3:first-of-type{
+    background-color: green;
+    color: white;
+}
+
+input:in-range{
+    border: 3px solid green;
+
+}
+input:out-of-range{
+    border: 3px solid red;
+
+}
+
+input:required{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+span:first-of-type{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+form{
+    margin-top: 50px;
+}
