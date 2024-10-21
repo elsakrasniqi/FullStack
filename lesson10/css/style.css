@@ -1,0 +1,50 @@
+ul{
+    /* list-style-image: url('../images/lists.png'); */
+    border-left: 5px solid green;
+    background-color: #ce7777;
+    list-style-type: none;
+    padding: 15px 25px;
+    border: 2px solid grey;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid grey;
+}
+
+ol{
+    list-style-type: none;
+    background: #ffeeee;
+    padding: 15px;
+}
+
+ol li{
+    background: #00004e;
+    padding: 10px;
+    margin-left: 30px;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: pink;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightblue;
+}
+
+div{
+    overflow: scroll;
+    background-color:bisque;
+    width: 200px;
+    height: 200px;
+}
