@@ -32,4 +32,40 @@ function dsFunction(){
 dsFunction();
 alert(localVar);
 
+function SyprinaTrekendeshit(baza, lartesia){
+    return 0.5 * baza * lartesia
+}
+console.log(SyprinaTrekendeshit(2,5));
 
+var makina={
+    emri:"BMW",
+    color:"Red",
+    year:2020,
+    startEngine: function(){
+        alert("Vroom!")
+    },
+    get getColor(){
+        return this.color;
+    },
+    set setColor(newColor){
+        this.color=newColor
+    }
+}
+
+console.log(makina['emri'])
+console.log(makina.emri)
+makina.startEngine()
+
+var computer = new Object();
+computer.name="Lenovo"
+computer.CPU="Intel Core i7"
+computer.RAM="16GB"
+
+computer.type=()=>{
+    console.log("Start PC")
+}
+
+
+computer.type()
+makina.setColor="Blue"
+console.log (makina.getColor)
