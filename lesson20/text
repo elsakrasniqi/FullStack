@@ -1,0 +1,75 @@
+js:
+
+
+// var button1 = document.getElementById("btn1");
+// var button2 = document.getElementById("btn2");
+// var button3 = document.getElementById("btn3");
+
+
+// button1.onclick = function(){
+//     alert("Hello World");
+// }
+// button2.onmouseleave = function(){
+//     alert("Mouse leave");
+// }
+// button3.onmouseover = function(){
+//     alert("Mouse hover");
+// }
+
+
+
+var v_button = document.getElementById("btn1");
+
+
+var v_text = document.querySelector("h1");
+
+
+
+v_button.onclick = function(){
+    v_text.setAttribute("id", "txt1");
+}
+// v_button.onclick = function(){
+//     v_text.style.color = "red";
+//     v_text.style.backgroundColor = "lightgrey";
+//     v_text.style.alignItems = "center";
+//     v_text.style.fontSize = "100px";
+//     v_text.style.padding = "20px";
+// }
+
+
+// //mouse over css
+
+
+// v_text.onmouseover = function(){
+//     v_text.style.cssText = "color:red; background-color:lightgrey; align-items:center; font-size:100px; padding:20px;"
+// }
+
+
+
+
+html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="btn1">Click me</button>
+
+
+    <button id="btn2">Leave me</button>
+
+
+    <button id="btn3">Over here</button>
+
+
+    <h1 id ="mytxt1">This is a testing h1</h1>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
