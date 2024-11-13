@@ -5,7 +5,7 @@
 $('myElement').hide();
 // same as jQuery('myElement').hide();
 // $('#myElement').text("New Text"); //manipulate with html
-$('.btn').click(function*(){
+$('.btn').click(function(){
     //alert("clicked");
     console.log($('#myElement').text());
 
