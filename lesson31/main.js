@@ -1,15 +1,18 @@
-$('#btn3').click(function(){
-    $('.hidden').show('slow');
-});
+// $('#btn3').click(function(){
+//     $('.hidden').show('slow');
+// });
 
-$('#btn4').click(function(){
-    $('.hidden').hide();
-});
+// $('#btn4').click(function(){
+//     $('.hidden').hide();
+// });
 
-$('#square').click(function(){
-    $('#square').animate({
-        'width':'200px',
-        'height':'200px',
-    })
+// $('#square').click(function(){
+//     $('#square').animate({
+//         'width':'200px',
+//         'height':'200px',
+//     })
     
-})
+// })
+
+// make them sortable
+$('#sort').sortable();
