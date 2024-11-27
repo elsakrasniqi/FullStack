@@ -106,5 +106,9 @@ $len = count($sports)."<br>";
 $myValues =array(12,24,36,48);
 var_dump(array_sum($myValues));
 
+$vlerat = array(10, 20, 30, 40, 50, 60, 70);
+$shuma = array_sum($vlerat);
+$mesatarja = $shuma / count($vlerat);
+echo "Mesatarja e ketyre 7 vlerave eshte: " . $mesatarja;
 
 ?>
