@@ -14,14 +14,24 @@ try{
 
 
     //set values to be inserted
-    $username = "Elsa";
-    $password = password_hash("mypassword", PASSWORD_DEFAULT);
-    $sql = "INSERT INTO users(username, password) values ('$username','$password')";
+    // $username = "Elsa";
+    // $password = password_hash("mypassword", PASSWORD_DEFAULT);
+    // $sql = "INSERT INTO users(username, password) values ('$username','$password')";
+    // $conn->exec($sql);
+
+
+    //adding columns // deleting columns
+   // $sql ="ALTER TABLE users DROP column email";
+
+
+    // Delete table
+    $sql = "DROP TABLE users" // ose permes operations ne phpMyAdmin
+
     $conn->exec($sql);
-
-
-    $last_id = mysql_insert_id($conn);
-    echo "user is created";
+    // $last_id = mysql_insert_id($conn);
+    // $last_id = $conn->lastInsertId();
+    // echo "user is created". $last_id;
+    echo "column is deleted";
 }catch(Exception $e){
     echo $e->getMessage();
 }
