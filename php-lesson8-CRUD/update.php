@@ -1,18 +1,23 @@
 <?php
 include_once('config.php'); //thirrim fajllin e db
-if(isset($_POST['submit'])){
+if(isset($_POST['update'])){
+    
+    $id = $_POST['id'];
     $name = $_POST['name'];
     $username = $_POST['username'];
     $email = isset($_POST['email'])?$_POST['email']:'';
-
-    $sql = "INSERT INTO users(name,username,email) values
-    (:name, :username, :email)";
+ 
+    $sql = "UPDATE users SET name=:name, username=:username, email=:email WHERE id=:id";
+ 
     $sqlQuery = $connect->prepare($sql);
+
+
+    $sqlQuery -> bindParam(':id',$id);
     $sqlQuery -> bindParam(':name',$name);
     $sqlQuery -> bindParam(':username',$username);
     $sqlQuery -> bindParam(':email',$email);
 
     $sqlQuery->execute();
-    echo "The user was added succesfully";
+    header("Location:index.php");
 }
 ?>
